@@ -1,0 +1,55 @@
+div img {
+ width: 320px;
+ height: 180px;
+ border-radius: 8px;
+ border-style: solid;
+ border-color: black;
+}
+
+div {
+ display: flex;
+ justify-content: space-evenly;
+ margin: 10px;
+}
+
+nav {
+ background-color: #d9d9d9;
+ position: fixed;
+ border-color: black;
+ border-style: solid;
+ margin-left: -8px;
+ width: 56px;
+ height: 593px;
+}
+
+nav hr {
+ visibility: hidden;
+}
+
+nav:hover hr {
+ visibility: visible;
+}
+
+
+nav h1 {
+ visibility: hidden;
+}
+
+nav:hover h1 {
+ visibility: visible;
+}
+
+nav li {
+ font-size: 20px;
+ visibility: hidden;
+}
+
+nav:hover li {
+ visibility: visible;
+}
+
+nav:hover {
+ width: 700px;
+ transition: 1s;
+}
+

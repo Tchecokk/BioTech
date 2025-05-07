@@ -1,0 +1,30 @@
+ body {
+     background-size: 1920px 1080px;
+     background-repeat: no-repeat;
+     background-image: url(https://images.unsplash.com/photo-1538438253612-287c9fc9217e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnVuZG8lMjBkYSUyMHBsYW50YXxlbnwwfHwwfHx8MA%3D%3D);
+ }
+
+ main {
+     margin: auto;
+     background-color: white;
+     width: 590px;
+     border-radius: 16px;
+ }
+
+
+ main ul {
+     margin: 0 auto;
+     width: 550px;
+     border-style: solid;
+     border-color: black;
+     border-radius: 16px;
+ }
+
+ main li {
+     margin-left: -40px;
+     font-size: 16px;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     
+ }
