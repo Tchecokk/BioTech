@@ -1,0 +1,85 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: calc(100vw);
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: hwb(157 0% 2%);
+    height: 60px;
+    margin-top: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+
+header {
+    display: flex;
+    background-color: #00fa9a;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 15px;
+}
+
+div {
+    padding: 3px;
+    flex-wrap: wrap;
+    display: flex;
+    border-style: ridge;
+    border-radius: 8px;
+    background-color: rgb(221, 215, 206);
+    margin-left: 45px;
+    width: 430px;
+    height: auto;
+}
+
+div h4 {
+    margin: auto;
+}
+
+div img {
+    margin: auto;
+    width: 215px;
+    height: 100px;
+}
+
+section {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main.van div {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 0, 0);
+}
+
+main div {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 255, 68);
+}
+
+
+
+div hr {
+    margin-top: -4px;
+    margin-bottom: -4px;
+    border-color: black;
+    background-color: black;
+    color: black;
+}

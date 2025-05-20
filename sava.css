@@ -1,0 +1,41 @@
+section {
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div p {
+    padding: 1px;
+}
+
+footer {
+    position: fixed;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: wheat;
+    width: 440px;
+    height: 120px;
+}
+div img {
+    border-style: solid;
+    border-radius: 8px;
+    width: 440px;
+    height: 120px;
+}
+
+div h3 {
+    height: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+div.ts {
+    height: auto;
+}
